@@ -1,5 +1,6 @@
-import { app, TICKER } from "../";
-import request from "supertest";
+const { expect } = require('chai');
+const request = require('supertest');
+const { app } = require('../index');
 
 describe("Basic tests", () => {
 
